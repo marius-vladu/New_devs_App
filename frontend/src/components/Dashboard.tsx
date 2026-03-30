@@ -46,7 +46,7 @@ const Dashboard: React.FC = () => {
           </div>
 
           <div className="space-y-6">
-            <RevenueSummary propertyId={selectedProperty} />
+            <RevenueSummary propertyId={selectedProperty} showRaw={true} />
           </div>
         </div>
       </div>
