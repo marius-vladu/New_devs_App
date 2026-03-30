@@ -84,7 +84,7 @@ const Dashboard: React.FC = () => {
               propertyId={selectedProperty}
               month={parseInt(selectedPeriod.split('-')[0])}
               year={parseInt(selectedPeriod.split('-')[1])}
-              showRaw={true}
+              showRaw={false}
             />
           </div>
         </div>
